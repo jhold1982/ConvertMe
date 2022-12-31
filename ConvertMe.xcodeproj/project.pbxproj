@@ -11,6 +11,8 @@
 		649CC1542960EB5000E839F1 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 649CC1532960EB5000E839F1 /* ContentView.swift */; };
 		649CC1562960EB5000E839F1 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 649CC1552960EB5000E839F1 /* Assets.xcassets */; };
 		649CC1592960EB5000E839F1 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 649CC1582960EB5000E839F1 /* Preview Assets.xcassets */; };
+		649CC1602960EB8E00E839F1 /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 649CC15F2960EB8E00E839F1 /* HomeView.swift */; };
+		649CC1622960EBB900E839F1 /* TemperatureView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 649CC1612960EBB900E839F1 /* TemperatureView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -19,6 +21,8 @@
 		649CC1532960EB5000E839F1 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		649CC1552960EB5000E839F1 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		649CC1582960EB5000E839F1 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		649CC15F2960EB8E00E839F1 /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
+		649CC1612960EBB900E839F1 /* TemperatureView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TemperatureView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -53,6 +57,8 @@
 			children = (
 				649CC1512960EB5000E839F1 /* ConvertMeApp.swift */,
 				649CC1532960EB5000E839F1 /* ContentView.swift */,
+				649CC15F2960EB8E00E839F1 /* HomeView.swift */,
+				649CC1612960EBB900E839F1 /* TemperatureView.swift */,
 				649CC1552960EB5000E839F1 /* Assets.xcassets */,
 				649CC1572960EB5000E839F1 /* Preview Content */,
 			);
@@ -137,6 +143,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				649CC1602960EB8E00E839F1 /* HomeView.swift in Sources */,
+				649CC1622960EBB900E839F1 /* TemperatureView.swift in Sources */,
 				649CC1542960EB5000E839F1 /* ContentView.swift in Sources */,
 				649CC1522960EB5000E839F1 /* ConvertMeApp.swift in Sources */,
 			);
