@@ -11,7 +11,7 @@ struct DistanceView: View {
     var body: some View {
 		NavigationStack {
 			Form {
-				
+				//
 			}
 			.navigationTitle("📏Distance🚗")
 			.navigationBarTitleDisplayMode(.inline)
