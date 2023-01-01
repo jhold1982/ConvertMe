@@ -16,7 +16,19 @@ struct ContentView: View {
 				}
 			TemperatureView()
 				.tabItem {
-					Label("Temp", systemImage: "medical.thermometer.fill")
+					Label("Temperatures", systemImage: "medical.thermometer.fill")
+				}
+			LiquidView()
+				.tabItem {
+					Label("Liquids", systemImage: "mug.fill")
+				}
+			DistanceView()
+				.tabItem {
+					Label("Distances", systemImage: "lines.measurement.horizontal")
+				}
+			SettingsView()
+				.tabItem {
+					Label("Settings", systemImage: "gearshape.fill")
 				}
 		}
     }

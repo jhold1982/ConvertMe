@@ -83,7 +83,7 @@ struct TemperatureView: View {
 				ToolbarItemGroup(placement: .keyboard) {
 					Spacer()
 					Button("Done") {
-					userTempIsFocused = true
+					userTempIsFocused = false
 					}
 				}
 			}
