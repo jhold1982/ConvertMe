@@ -9,33 +9,27 @@ import SwiftUI
 
 struct TemperatureView: View {
 	@State private var userTemp = 0.0
-	@State private var tempSelectorIn = "Celsius"
-	@State private var tempSelectorOut = "Fahrenheit"
+	@State private var tempSelectorIn = "Fahrenheit"
+	@State private var tempSelectorOut = "Celsius"
 	@FocusState private var userTempIsFocused: Bool
 	let tempTypes = ["Fahrenheit", "Celsius", "Kelvin"]
 	var fahrenheitToCelsiusOutput: Double {
-		let userTempF = Double(userTemp - 32) * 5 / 9
-		return userTempF
+		Double(userTemp - 32) * 5 / 9
 	}
 	var fahrenheitToKelvinOutput: Double {
-		let userTempF = Double(userTemp - 32) * 5 / 9 + 273.15
-		return userTempF
+		Double(userTemp - 32) * 5 / 9 + 273.15
 	}
 	var kelvinToCelsiusOutput: Double {
-		let userTempK = Double(userTemp) - 273.15
-		return userTempK
+		Double(userTemp) - 273.15
 	}
 	var kelvinToFahrenheitOutput: Double {
-		let userTempK = Double(userTemp - 273.15) * 9/5 + 32
-		return userTempK
+		Double(userTemp - 273.15) * 9/5 + 32
 	}
 	var celsiusToKelvinOutput: Double {
-		let userTempC = Double(userTemp) + 273.15
-		return userTempC
+		Double(userTemp) + 273.15
 	}
 	var celsiusToFahrenheitOutput: Double {
-		let userTempC = Double(userTemp * 9 / 5) + 32
-		return userTempC
+		Double(userTemp * 9 / 5) + 32
 	}
     var body: some View {
 		NavigationStack {

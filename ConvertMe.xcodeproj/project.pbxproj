@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		64743ECE2961DA4B00E09454 /* WeightsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 64743ECD2961DA4B00E09454 /* WeightsView.swift */; };
 		649CC1522960EB5000E839F1 /* ConvertMeApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 649CC1512960EB5000E839F1 /* ConvertMeApp.swift */; };
 		649CC1542960EB5000E839F1 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 649CC1532960EB5000E839F1 /* ContentView.swift */; };
 		649CC1562960EB5000E839F1 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 649CC1552960EB5000E839F1 /* Assets.xcassets */; };
@@ -15,10 +16,10 @@
 		649CC1622960EBB900E839F1 /* TemperatureView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 649CC1612960EBB900E839F1 /* TemperatureView.swift */; };
 		649CC1652961215C00E839F1 /* LiquidView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 649CC1642961215C00E839F1 /* LiquidView.swift */; };
 		649CC1672961235A00E839F1 /* DistanceView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 649CC1662961235A00E839F1 /* DistanceView.swift */; };
-		649CC16A2961247800E839F1 /* SettingsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 649CC1692961247800E839F1 /* SettingsView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		64743ECD2961DA4B00E09454 /* WeightsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WeightsView.swift; sourceTree = "<group>"; };
 		649CC14E2960EB5000E839F1 /* ConvertMe.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ConvertMe.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		649CC1512960EB5000E839F1 /* ConvertMeApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ConvertMeApp.swift; sourceTree = "<group>"; };
 		649CC1532960EB5000E839F1 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -28,7 +29,6 @@
 		649CC1612960EBB900E839F1 /* TemperatureView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TemperatureView.swift; sourceTree = "<group>"; };
 		649CC1642961215C00E839F1 /* LiquidView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LiquidView.swift; sourceTree = "<group>"; };
 		649CC1662961235A00E839F1 /* DistanceView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DistanceView.swift; sourceTree = "<group>"; };
-		649CC1692961247800E839F1 /* SettingsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -64,7 +64,6 @@
 				649CC1512960EB5000E839F1 /* ConvertMeApp.swift */,
 				649CC1532960EB5000E839F1 /* ContentView.swift */,
 				649CC1632961210F00E839F1 /* Tab Views */,
-				649CC1682961246200E839F1 /* Settings View */,
 				649CC1552960EB5000E839F1 /* Assets.xcassets */,
 				649CC1572960EB5000E839F1 /* Preview Content */,
 			);
@@ -85,17 +84,10 @@
 				649CC15F2960EB8E00E839F1 /* HomeView.swift */,
 				649CC1612960EBB900E839F1 /* TemperatureView.swift */,
 				649CC1642961215C00E839F1 /* LiquidView.swift */,
+				64743ECD2961DA4B00E09454 /* WeightsView.swift */,
 				649CC1662961235A00E839F1 /* DistanceView.swift */,
 			);
 			path = "Tab Views";
-			sourceTree = "<group>";
-		};
-		649CC1682961246200E839F1 /* Settings View */ = {
-			isa = PBXGroup;
-			children = (
-				649CC1692961247800E839F1 /* SettingsView.swift */,
-			);
-			path = "Settings View";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -168,8 +160,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				649CC16A2961247800E839F1 /* SettingsView.swift in Sources */,
 				649CC1602960EB8E00E839F1 /* HomeView.swift in Sources */,
+				64743ECE2961DA4B00E09454 /* WeightsView.swift in Sources */,
 				649CC1672961235A00E839F1 /* DistanceView.swift in Sources */,
 				649CC1652961215C00E839F1 /* LiquidView.swift in Sources */,
 				649CC1622960EBB900E839F1 /* TemperatureView.swift in Sources */,

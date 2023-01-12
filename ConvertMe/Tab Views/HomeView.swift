@@ -7,21 +7,41 @@
 
 import SwiftUI
 
+struct SettingsList: Hashable {
+	let settingName: String
+	let iconName: String
+}
+struct SettingsInfo: Hashable {
+	let infoName: String
+	let detailName: String
+}
 struct HomeView: View {
+	
+	var settings: [SettingsList] = [
+		.init(settingName: "App Info", iconName: "number.circle.fill")
+	]
+	var info: [SettingsInfo] = [
+		.init(infoName: "Current App Version", detailName: "1.0.0")
+	]
+	
     var body: some View {
 		NavigationStack {
-			ZStack {
-				VStack {
-					Text("Select a Tab below")
-					Text("and convert something!")
+			VStack {
+				List {
+//					Section {
+//						ForEach(settings, id: \.self) { setting in
+//							NavigationLink(value: setting) {
+//								Label(setting.settingName, systemImage: setting.iconName)
+//							}
+//						}
+//					}
 				}
+				.navigationTitle("⚛️ConvertMe🧮")
 			}
-			.font(.headline)
-			.navigationTitle("⚛️ConvertMe🧮")
 		}
-		.padding()
-    }
+	}
 }
+
 
 struct HomeView_Previews: PreviewProvider {
     static var previews: some View {
