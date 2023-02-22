@@ -10,6 +10,7 @@
 		6425D1C829A6833D007F19DF /* TemperatureView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6425D1C729A6833D007F19DF /* TemperatureView.swift */; };
 		6425D1CA29A6834C007F19DF /* DistanceView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6425D1C929A6834C007F19DF /* DistanceView.swift */; };
 		6425D1CC29A68354007F19DF /* MassView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6425D1CB29A68354007F19DF /* MassView.swift */; };
+		6425D1CE29A6A6C2007F19DF /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6425D1CD29A6A6C2007F19DF /* HomeView.swift */; };
 		649CC1522960EB5000E839F1 /* ConvertMeApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 649CC1512960EB5000E839F1 /* ConvertMeApp.swift */; };
 		649CC1542960EB5000E839F1 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 649CC1532960EB5000E839F1 /* ContentView.swift */; };
 		649CC1562960EB5000E839F1 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 649CC1552960EB5000E839F1 /* Assets.xcassets */; };
@@ -20,6 +21,7 @@
 		6425D1C729A6833D007F19DF /* TemperatureView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TemperatureView.swift; sourceTree = "<group>"; };
 		6425D1C929A6834C007F19DF /* DistanceView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DistanceView.swift; sourceTree = "<group>"; };
 		6425D1CB29A68354007F19DF /* MassView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MassView.swift; sourceTree = "<group>"; };
+		6425D1CD29A6A6C2007F19DF /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
 		649CC14E2960EB5000E839F1 /* ConvertMe.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ConvertMe.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		649CC1512960EB5000E839F1 /* ConvertMeApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ConvertMeApp.swift; sourceTree = "<group>"; };
 		649CC1532960EB5000E839F1 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -59,6 +61,7 @@
 			children = (
 				649CC1512960EB5000E839F1 /* ConvertMeApp.swift */,
 				649CC1532960EB5000E839F1 /* ContentView.swift */,
+				6425D1CD29A6A6C2007F19DF /* HomeView.swift */,
 				6425D1C729A6833D007F19DF /* TemperatureView.swift */,
 				6425D1C929A6834C007F19DF /* DistanceView.swift */,
 				6425D1CB29A68354007F19DF /* MassView.swift */,
@@ -149,6 +152,7 @@
 				649CC1542960EB5000E839F1 /* ContentView.swift in Sources */,
 				6425D1CC29A68354007F19DF /* MassView.swift in Sources */,
 				649CC1522960EB5000E839F1 /* ConvertMeApp.swift in Sources */,
+				6425D1CE29A6A6C2007F19DF /* HomeView.swift in Sources */,
 				6425D1C829A6833D007F19DF /* TemperatureView.swift in Sources */,
 				6425D1CA29A6834C007F19DF /* DistanceView.swift in Sources */,
 			);
